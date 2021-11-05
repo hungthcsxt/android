@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">NhapThongTin</string>
+    <string name="toast_message">Nhap thieu thong tin</string>
+</resources>
