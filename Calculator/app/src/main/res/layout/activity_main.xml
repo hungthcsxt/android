@@ -204,26 +204,26 @@
         app:layout_constraintStart_toStartOf="@+id/guideline2" />
 
     <Button
-        android:id="@+id/buttonC"
-        android:layout_width="0dp"
-        android:layout_height="73dp"
-        android:insetLeft="4dp"
-        android:insetRight="4dp"
-        android:text="C"
-        android:textSize="30dp"
-        app:backgroundTint="#00BCD4"
-        app:layout_constraintBottom_toBottomOf="@+id/buttonCE"
-        app:layout_constraintEnd_toEndOf="@+id/button9"
-        app:layout_constraintStart_toStartOf="@+id/button9"
-        app:layout_constraintTop_toTopOf="@+id/buttonCE" />
-
-    <Button
         android:id="@+id/buttonCE"
         android:layout_width="0dp"
         android:layout_height="73dp"
         android:insetLeft="4dp"
         android:insetRight="4dp"
         android:text="CE"
+        android:textSize="30dp"
+        app:backgroundTint="#00BCD4"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonC"
+        app:layout_constraintEnd_toEndOf="@+id/button9"
+        app:layout_constraintStart_toStartOf="@+id/button9"
+        app:layout_constraintTop_toTopOf="@+id/buttonC" />
+
+    <Button
+        android:id="@+id/buttonC"
+        android:layout_width="0dp"
+        android:layout_height="73dp"
+        android:insetLeft="4dp"
+        android:insetRight="4dp"
+        android:text="C"
         android:textSize="30dp"
         app:backgroundTint="#00BCD4"
         app:layout_constraintBottom_toBottomOf="@+id/buttonBS"
@@ -255,11 +255,11 @@
         android:textSize="30dp"
         app:backgroundTint="#00BCD4"
         app:elevation="6dp"
-        app:layout_constraintBottom_toBottomOf="@+id/buttonC"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonCE"
         app:layout_constraintEnd_toEndOf="@+id/buttonMul"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/buttonMul"
-        app:layout_constraintTop_toTopOf="@+id/buttonC"
+        app:layout_constraintTop_toTopOf="@+id/buttonCE"
         app:layout_constraintVertical_bias="1.0" />
 
     <Button
